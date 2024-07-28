@@ -1,0 +1,205 @@
+.bg {
+    position: absolute;
+    top: 0px;
+    left: 207px;
+    background: linear-gradient(180deg, #0575e6, #02298a 84.79%, #021b79);
+    width: 860px;
+    height: 900px;
+}
+.leftContentChild {
+    position: absolute;
+    top: 620px;
+    left: 0px;
+    width: 638px;
+    height: 583px;
+}
+.gofinance {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.theMostPopular {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.gofinanceParent {
+    width: 410px;
+    position: relative;
+    height: 87px;
+}
+.readMore {
+    position: relative;
+}
+.readMoreWrapper {
+    border-radius: 30px;
+    background-color: #0575e6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.groupParent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 23px;
+}
+.content {
+    position: absolute;
+    top: 371px;
+    left: 364px;
+    width: 410px;
+    height: 147px;
+}
+.leftContent {
+    position: absolute;
+    top: 0px;
+    left: -207px;
+    width: 1067px;
+    height: 1203px;
+}
+.signUpTo {
+    position: absolute;
+    top: 42px;
+    left: 0px;
+    font-size: 18px;
+}
+.title {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 198px;
+    height: 69px;
+}
+.fullName {
+    position: absolute;
+    top: 2px;
+    left: 32px;
+    color: #000;
+}
+.bxbxsUserIcon {
+    position: absolute;
+    height: 100%;
+    width: 23.53%;
+    top: 0%;
+    right: 76.47%;
+    bottom: 0%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.placeholder {
+    width: 102px;
+    position: relative;
+    height: 24px;
+}
+.placeholder input{
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+    color: #333;
+}
+.email{
+    width: 307px;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 18px 26px;
+}
+.codiconmail {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    opacity: 0.3;
+}
+.placeholder1 {
+    width: 131px;
+    position: relative;
+    height: 24px;
+}
+.placeholder1 input{
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+    color: #333;
+}
+.placeholder2 {
+    width: 100px;
+    position: relative;
+    height: 24px;
+}
+.placeholder2 input{
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+    color: #333;
+}
+.placeholder3 {
+    border: none;
+    width: 307px;
+    border-radius: 30px;
+    background-color: #0575e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 26px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+}
+.emailParent {
+    position: absolute;
+    top: 109px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 14px;
+}
+.rightContent {
+    position: absolute;
+    top: 253px;
+    left: 973px;
+    width: 307px;
+    height: 394px;
+    font-size: 26px;
+    color: #333;
+}
+.register {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 900px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 40px;
+    color: #fff;
+    font-family: Poppins;
+}
+
+

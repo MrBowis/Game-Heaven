@@ -1,0 +1,724 @@
+.embarcateEnUna {
+    width: 1038px;
+    position: relative;
+    line-height: 61px;
+    background: linear-gradient(242.08deg, #ff00ff, #990099);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+.descubreReseasDe {
+    align-self: stretch;
+    position: relative;
+    font-size: 24px;
+    font-family: Poppins;
+}
+.embarcateEnUnaAventuraConParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.button {
+    position: relative;
+}
+.component257 {
+    border-radius: 8px;
+    background: linear-gradient(253.88deg, #ff00ff, #990099), linear-gradient(180deg, #2badfd, #1570ef 88.02%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 19px 30px;
+}
+.vectorIcon {
+    width: 25.3px;
+    position: relative;
+    height: 28.4px;
+}
+.referenceGuide {
+    position: relative;
+    line-height: 61px;
+    font-weight: 500;
+}
+.vectorParent {
+    border-radius: 8px;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-family: Montserrat;
+}
+.component257Parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 41px;
+    font-size: 24px;
+    font-family: 'Big Shoulders Text';
+}
+.frameParent {
+    width: 1007px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 56px;
+    z-index: 0;
+}
+.isolationModeIcon {
+    width: 576px;
+    position: relative;
+    height: 717px;
+    object-fit: cover;
+    z-index: 1;
+}
+.fuelerTwitterHeader13 {
+    width: 100%;
+    position: relative;
+    height: 822px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 50px;
+    box-sizing: border-box;
+    gap: 10px;
+    text-align: left;
+    font-size: 52px;
+    color: #fff;
+    font-family: Numans;
+    background-image: url('../assets/fondoHomePage.jpeg');
+    background-size: cover;
+    z-index: 1;
+}
+
+.fuelerTwitterHeader13::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajusta el color y la opacidad aquí */
+    z-index: -1; /* Asegura que el overlay esté por debajo del contenido */
+}
+
+.about {
+    align-self: stretch;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 500;
+    background: linear-gradient(#ff00ff, #ff00ff), #22b4fd;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    height: 31px;
+    flex-shrink: 0;
+    z-index: 0;
+}
+.whatsArcadeLunar {
+    align-self: stretch;
+    position: relative;
+    font-size: 42px;
+    line-height: 134.6%;
+    font-family: 'Noto Music';
+    background: linear-gradient(242.08deg, #ff00ff, #990099), #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
+}
+.decoreIcon {
+    width: 578.7px;
+    position: absolute;
+    margin: 0 !important;
+    top: 84.68px;
+    left: 148.64px;
+    height: 12px;
+    object-fit: contain;
+    z-index: 2;
+}
+.subtextheadline {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    gap: 10px;
+}
+.arcadeLunarIs {
+    align-self: stretch;
+    position: relative;
+    font-size: 24px;
+}
+.aboutHeadingtext {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 20px;
+}
+.exploreMore {
+    position: relative;
+    font-weight: 500;
+}
+.career {
+    width: 200px;
+    box-shadow: 0px 10px 19px rgba(216, 77, 45, 0.09);
+    border-radius: 8px;
+    background-color: #fbedea;
+    border: 1px solid #d84d2d;
+    box-sizing: border-box;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    color: #d84d2d;
+}
+.exploreMore1 {
+    width: 103px;
+    position: relative;
+    font-weight: 500;
+    color: #343434;
+    display: none;
+}
+.line47Stroke {
+    width: 19px;
+    position: relative;
+    height: 17.8px;
+}
+.line47StrokeWrapper {
+    width: 40px;
+    border-radius: 8px;
+    background-color: #fff;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.exploreMoreParent {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.aboutContentSection {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.ourStory {
+    width: 100%;
+    position: relative;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 40px 60px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 16px;
+    color: #fff;
+    font-family: Poppins;
+}
+
+.decoreIcon {
+    width: 385px;
+    position: absolute;
+    margin: 0 !important;
+    top: 93.19px;
+    left: 461.54px;
+    height: 12px;
+    object-fit: contain;
+    z-index: 0;
+}
+.theEndlessWait {
+    position: relative;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    background: linear-gradient(#ff00ff, #ff00ff), #00b4d8;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
+}
+.whatIsThe {
+    position: relative;
+    font-size: 44px;
+    font-family: 'Noto Music';
+    background: linear-gradient(242.08deg, #ff00ff, #990099), #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    z-index: 2;
+}
+.amidstTheVast {
+    align-self: stretch;
+    position: relative;
+    z-index: 3;
+}
+.recentlyWithinOur {
+    align-self: stretch;
+    position: relative;
+    z-index: 4;
+}
+.decoreParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    gap: 10px;
+}
+.theEndlessWait1 {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #343434;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.theEndlessWaitWrapper {
+    width: 250px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.heading {
+    position: relative;
+    line-height: 120%;
+}
+.paragraph {
+    width: 1142px;
+    position: relative;
+    font-size: 24px;
+    font-family: Poppins;
+    display: none;
+}
+.textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.paragraph1-image {
+    position: relative;
+}
+.textContainerChild {
+    width: 70px;
+    position: relative;
+    height: 70px;
+}
+.textContainer1 {
+    box-shadow: 20px 10px 50px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    gap: 20px;
+    font-size: 24px;
+    font-family: Poppins;
+}
+.textContainerParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 96px;
+    font-family: 'Bebas Neue';
+}
+.subContainer {
+    align-self: stretch;
+    border-radius: 10px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    gap: 10px;
+    background-image: url('../assets/fondeAboutUs.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-size: 20px;
+    color: #f9f9f9;
+}
+.ai {
+    width: 100%;
+    position: relative;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 60px;
+    box-sizing: border-box;
+    gap: 20px;
+    text-align: left;
+    font-size: 24px;
+    color: #fff;
+    font-family: Poppins;
+}
+.text {
+    position: relative;
+    line-height: 150%;
+    background: linear-gradient(#fff, #fff), linear-gradient(90deg, #0062ff, #65d1ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.caption {
+    border-radius: 10px;
+    background: linear-gradient(261.36deg, #ff00ff, #990099), #343434;
+    border: 1px solid #cce0ff;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 14px 30px;
+}
+.heading {
+    align-self: stretch;
+    position: relative;
+    font-size: 48px;
+    line-height: 120%;
+    background: linear-gradient(261.36deg, #ff00ff, #990099);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subContainerCards {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    }
+.paragraph {
+    align-self: stretch;
+    position: relative;
+    font-size: 18px;
+    line-height: 150%;
+    font-family: Inter;
+}
+.container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.produceUiSymbolIcon {
+    width: 50px;
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 0;
+}
+.shape {
+    width: 106px;
+    position: absolute;
+    margin: 0 !important;
+    top: calc(50% - 53.37px);
+    left: 1.12px;
+    backdrop-filter: blur(12px);
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 51px;
+    transform:  rotate(90deg);
+    transform-origin: 0 0;
+    z-index: 1;
+}
+.icon {
+    border-radius: 12px;
+    background-color: rgba(124, 124, 124, 0.6);
+    border: 1px solid #e5efff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 29px;
+    position: relative;
+    gap: 10px;
+}
+.heading1 {
+    align-self: stretch;
+    position: relative;
+    text-transform: capitalize;
+    background: linear-gradient(242.08deg, #ff00ff, #990099), #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.paragraph1 {
+    align-self: stretch;
+    position: relative;
+    font-size: 24px;
+    font-family: Poppins;
+}
+.textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.container2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.imageIcon {
+    align-self: stretch;
+    border-radius: 16px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 403px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.card {
+    flex: 1;
+    border-radius: 20px;
+    border: 1px solid #e5efff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 40px 20px;
+    gap: 40px;
+}
+.paragraph2 {
+    align-self: stretch;
+    position: relative;
+    font-size: 20px;
+    font-family: Poppins;
+}
+.container3 {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.card1 {
+    align-self: stretch;
+    flex: 1;
+    border-radius: 20px;
+    border: 1px solid #e5efff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px;
+    color: #666;
+}
+.subContainer1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px;
+}
+.shape2 {
+    width: 106px;
+    position: absolute;
+    margin: 0 !important;
+    top: calc(50% - 53px);
+    left: 0px;
+    backdrop-filter: blur(12px);
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 51px;
+    transform:  rotate(90deg);
+    transform-origin: 0 0;
+    z-index: 1;
+}
+.icon2 {
+    border-radius: 12px;
+    background-color: #f7faff;
+    border: 1px solid #e5efff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 29px;
+    position: relative;
+    gap: 10px;
+}
+.heading3 {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 24px;
+    font-weight: 600;
+}
+.paragraph3 {
+    align-self: stretch;
+    position: relative;
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    line-height: 24px;
+    color: #666;
+}
+.imageIcon2 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+.iconDeleteThis {
+    width: 40px;
+    position: absolute;
+    margin: 0 !important;
+    top: calc(50% - 20.5px);
+    left: calc(50% - 19.5px);
+    border-radius: 5px;
+    height: 40px;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 1;
+}
+.image {
+    align-self: stretch;
+    border-radius: 16px;
+    height: 403px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+.card2 {
+    width: 637px;
+    border-radius: 20px;
+    border: 1px solid #e5efff;
+    box-sizing: border-box;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 40px;
+    gap: 40px;
+}
+.heading4 {
+    align-self: stretch;
+    position: relative;
+    background: linear-gradient(242.08deg, #ff00ff, #990099), #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.iconDeleteThis1 {
+    width: 40px;
+    position: absolute;
+    margin: 0 !important;
+    top: calc(50% - 20.5px);
+    left: calc(50% - 20px);
+    border-radius: 5px;
+    height: 40px;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 1;
+}
+.card3 {
+    flex: 1;
+    border-radius: 20px;
+    border: 1px solid #e5efff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 40px;
+    gap: 40px;
+    font-size: 41px;
+    color: #666;
+    font-family: 'Noto Music';
+}
+.subContainer2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px;
+    font-size: 22px;
+    color: #333;
+    font-family: Inter;
+}
+.container1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px;
+    font-size: 20px;
+}
+.features {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 80px;
+}
+.features45DesktopProduc {
+    width: 100%;
+    position: relative;
+    background-color: #121212;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 60px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 19px;
+    color: #fff;
+    font-family: 'Noto Music';
+}
+
+

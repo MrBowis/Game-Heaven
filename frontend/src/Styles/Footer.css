@@ -1,0 +1,473 @@
+.mainFooterChild{
+    position: relative;
+}
+.mainFooter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-position: top;
+    background-color: #232323;
+    font-family: Poppins;
+}
+.unlockHiddenGrowth {
+    position: relative;
+    line-height: 60px;
+}
+.shareYourGoals {
+    margin: 0;
+}
+.shareYourGoalsContainer {
+    width: 691px;
+    position: relative;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    display: inline-block;
+}
+.headingtext {
+    width: 990px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.exploreMore {
+    position: relative;
+    font-weight: 500;
+    z-index: 0;
+}
+.career01Child {
+    width: 0px;
+    position: absolute;
+    margin: 0 !important;
+    top: -1.26px;
+    left: -0.01px;
+    border-radius: 8px;
+    background-color: #fff;
+    height: 57.7px;
+    z-index: 1;
+}
+.career01 {
+    width: 200px;
+    border-radius: 8px;
+    border: 2px solid #fefefe;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    position: relative;
+    gap: 8px;
+    font-size: 16px;
+    color: #fefefe;
+}
+.bannerContentSection {
+    width: 1520px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 51px 0px;
+}
+.logoSectionChild {
+    width: 1521px;
+    position: absolute;
+    margin: 0 !important;
+    top: 324.5px;
+    left: -7.5px;
+    border-top: 1px solid #bfbfbf;
+    box-sizing: border-box;
+    height: 1px;
+    display: none;
+    z-index: 0;
+}
+.arcadeLunar {
+    position: relative;
+    line-height: 61px;
+    background: linear-gradient(242.08deg, #ff00ff, #990099), #00a0f0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.muhammadIshfaqIs {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    font-family: Poppins;
+}
+.logotext {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.groupIcon {
+    width: 20px;
+    position: relative;
+    height: 20px;
+}
+.groupWrapper {
+    width: 40px;
+    border-radius: 8px;
+    background-color: rgba(35, 35, 35, 0.5);
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    box-sizing: border-box;
+}
+.vectorIcon {
+    width: 19.9px;
+    position: relative;
+    height: 20px;
+}
+.groupIcon1 {
+    width: 11px;
+    position: relative;
+    height: 20px;
+}
+.groupIcon2 {
+    width: 22px;
+    position: relative;
+    height: 22px;
+}
+.frameGroup {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.logoContent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 40px;
+    z-index: 1;
+}
+.logoSection {
+    width: 365px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+}
+.locationWrapper {
+    align-self: stretch;
+    border-bottom: 1px solid #232323;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 0px 27px;
+}
+.brazilDcJapanContainer {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    line-height: 38px;
+}
+.location {
+    width: 235px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 50px 0px 0px;
+    box-sizing: border-box;
+    gap: 20px;
+}
+.company {
+    flex: 1;
+    position: relative;
+    line-height: 30px;
+    font-weight: 500;
+}
+.aboutUsServicesContainer {
+    width: 89px;
+    position: relative;
+    line-height: 38px;
+    display: none;
+}
+.whoAreWe {
+    position: relative;
+    line-height: 38px;
+}
+.services1 {
+    width: 67px;
+    position: relative;
+    line-height: 38px;
+    color: #fefefe;
+    display: none;
+}
+.whoAreWeParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #fff;
+}
+.aboutUsServicesBlogsCareerParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 16px;
+    color: #fefefe;
+}
+.locationParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.vectorIcon1 {
+    width: 17.2px;
+    position: relative;
+    height: 22.9px;
+}
+.vectorContainer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 20px;
+    background-color: #343434;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.group {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 40px;
+    height: 40px;
+}
+.addressIcon {
+    width: 40px;
+    position: relative;
+    height: 40px;
+    display: none;
+}
+.address {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.addressWrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.forSales {
+    flex: 1;
+    position: relative;
+}
+.email {
+    align-self: stretch;
+    border-bottom: 1px solid #232323;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.letsIconsmessageDuotone {
+    width: 20px;
+    position: relative;
+    height: 14.3px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.letsIconsmessageDuotoneWrapper {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.email1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.vectorIcon2 {
+    width: 19.5px;
+    position: relative;
+    height: 23.1px;
+    object-fit: contain;
+}
+.emailGroup {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: 16px;
+}
+.emailParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.letsIconsmessageDuotoneContainer {
+    width: 40px;
+    border-radius: 8px;
+    background-color: rgba(254, 254, 254, 0.1);
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    box-sizing: border-box;
+}
+.email4 {
+    width: 365px;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 16px;
+    color: #fefefe;
+}
+.email6 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.frameContainer {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+    font-size: 18px;
+}
+.addressemailphone {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.reachUs {
+    width: 365px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 16px;
+}
+.infoSection {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 150px;
+    font-size: 18px;
+    font-family: Poppins;
+}
+.topFooter {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 150px;
+    font-size: 32px;
+    font-family: 'Noto Music';
+}
+.bannerContentSectionParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+}
+.termsPolicies {
+    position: relative;
+}
+.termsPoliciesWrapper {
+    border-right: 1px solid #232323;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 16px;
+}
+.faqsWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 16px;
+}
+.frameParent1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.subFooter {
+    align-self: stretch;
+    border-top: 1px solid #232323;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+    font-size: 14px;
+}
+.frameParent {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 60px 60px 0px;
+    box-sizing: border-box;
+    gap: 32px;
+    text-align: left;
+    font-size: 42px;
+    color: #fff;
+    font-family: Poppins;
+}

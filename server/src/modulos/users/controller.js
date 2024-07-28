@@ -1,4 +1,4 @@
-const TABLA = 'users';
+const TABLE = 'users';
 const auth = require('../auth');
 module.exports = function (dbinjected) {
 
@@ -9,11 +9,11 @@ module.exports = function (dbinjected) {
     }
 
     function findAll() {
-        return db.findAll(TABLA);
+        return db.findAll(TABLE);
     }
     
     function find(id) {
-        return db.find(TABLA, id);
+        return db.find(TABLE, id);
     }
     
     async function add(data) {
@@ -24,7 +24,7 @@ module.exports = function (dbinjected) {
             user : data.user,
         };
 
-        const response = await db.add(TABLA, user);
+        const response = await db.add(TABLE, user);
         console.log('response add', response);
 
         if (data.password || data.user) {
@@ -46,7 +46,7 @@ module.exports = function (dbinjected) {
             user : data.user,
         };
 
-        const response = await db.update(TABLA, user);
+        const response = await db.update(TABLE, user);
         console.log('response update', response);
 
         if (data.password || data.user) {
@@ -62,7 +62,7 @@ module.exports = function (dbinjected) {
     
     function remove(id) {
         auth.remove(id);
-        return db.remove(TABLA, id);
+        return db.remove(TABLE, id);
     }
 
     return {

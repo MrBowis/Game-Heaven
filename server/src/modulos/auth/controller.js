@@ -1,4 +1,4 @@
-const TABLA = 'auth';
+const TABLE = 'auth';
 const bcrypt = require('bcrypt');
 const auth = require('../../auth');
 
@@ -11,16 +11,10 @@ module.exports = function (dbinjected) {
     }
     
     async function login(user, password) {
-        const data = await db.query(TABLA, { user: user });
+        const data = await db.query(TABLE, { user : user });
 
-        return bcrypt.compare(password, data.password)
-            .then((result) => {
-                if (result) {
-                    return auth.token({...data});
-                } else {
-                    throw new Error('Invalid information');
-                }
-            });
+        return bcrypt.compareSync(password, data.password) ? auth.token({...data}) : new Error('Invalid information');
+
     }
 
     async function add(data) {
@@ -36,10 +30,10 @@ module.exports = function (dbinjected) {
             authData.password = await bcrypt.hashSync(data.password.toString(), 5);
         }
 
-        return db.add(TABLA, authData);
+        return db.add(TABLE, authData);
     }
 
-    function update(data) {
+    async function update(data) {
         const authData = {
             id : data.id,
         };
@@ -49,14 +43,14 @@ module.exports = function (dbinjected) {
         }
 
         if (data.password) {
-            authData.password = data.password;
+            authData.password = await bcrypt.hashSync(data.password.toString(), 5);
         }
 
-        return db.update(TABLA, authData);
+        return db.update(TABLE, authData);
     }
 
     function remove(id) {
-        return db.remove(TABLA, id);
+        return db.remove(TABLE, id);
     }
 
     return {

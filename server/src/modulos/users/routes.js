@@ -3,6 +3,8 @@ const express = require('express');
 const response = require('../../net/res');
 const controller = require('./index');
 
+const security = require('./security');
+
 const router = express.Router();
 
 const findAll = async (req, res, next) => {
@@ -53,7 +55,7 @@ const remove = async (req, res, next) => {
 router.get('/', findAll);
 router.get('/:id', find);
 router.post('/', add);
-router.put('/', update);
-router.delete('/:id', remove);
+router.put('/', security(), update);
+router.delete('/:id', security(), remove);
 
 module.exports = router;

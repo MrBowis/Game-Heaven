@@ -81,9 +81,9 @@ function remove(table, id) {
 
 function query(table, query) {
     return new Promise((resolve, reject) => {
-        connection.query(`SELECT * FROM ${table} WHERE ${query}`, (err, result) => {
+        connection.query(`SELECT * FROM ${table} WHERE ?`, query, (err, result) => {
             if (err) return reject(err);
-            resolve(result[0]);
+            resolve(result[0] || null);
         });
     });
 }

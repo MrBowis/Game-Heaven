@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../Styles/Login.css";
+import styles from "../Styles/Login.module.css";
 
 const Login = () => {
 	const [user, setUser] = useState("");
@@ -26,35 +26,33 @@ const Login = () => {
 	};
 
 	return (
-		<div className="login">
-			<div className="leftContent">
-				<b className="gofinance">GoFinance</b>
-				<div className="theMostPopular">
+		<div className={styles.login}>
+			<div className={styles.leftContent}>
+				<b className={styles.gofinance}>GoFinance</b>
+				<div className={styles.theMostPopular}>
 					The most popular peer to peer lending at SEA
 				</div>
-				<a className="readMore">
-					Read More
-				</a>
+				<a href="/" className={styles.link}>Back</a>
 			</div>
-			<div className="rightContent">
-				<b className="gofinance">Hello Again!</b>
-				<div className="welcomeBack">Welcome Back</div>
+			<div className={styles.rightContent}>
+				<b className={styles.gofinance}>Hello Again!</b>
+				<div className={styles.welcomeBack}>Welcome Back</div>
 				<form onSubmit={handleLogin}>
 					<input
 						type="user"
-						className="userAddress"
 						placeholder="User Address"
+						className={styles.input}
 						value={user}
 						onChange={(e) => setUser(e.target.value)}
 					/>
 					<input
 						type="password"
-						className="userAddress"
+						className={styles.input}
 						placeholder="Password"
 						value={password}
 						onChange={(e) => setPassword(e.target.value)}
 					/>
-					<button type="submit" className="button">
+					<button type="submit" className={styles.button}>
 						Log In
 					</button>
 				</form>

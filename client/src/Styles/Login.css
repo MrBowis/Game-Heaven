@@ -1,99 +1,46 @@
-.bg {
-    position: absolute;
-    top: 0px;
-    left: 207px;
-    background: linear-gradient(180deg, #0575e6, #02298a 84.79%, #021b79);
-    width: 860px;
-    height: 900px;
-}
 .leftContentChild {
-    position: absolute;
-    top: 620px;
-    left: 0px;
     width: 638px;
     height: 583px;
 }
-.gofinance {
-    position: relative;
-    top: 0px;
-    left: 0px;
-}
+
 .theMostPopular {
-    position: absolute;
-    top: 60px;
-    left: 0px;
     font-size: 18px;
     font-weight: 500;
 }
-.gofinanceParent {
-    width: 410px;
-    position: relative;
-    height: 87px;
+
+.gofinance {
+    font-size: 40px;
+    font-weight: 600;
 }
+
 .readMore {
-    position: relative;
-}
-.readMoreWrapper {
     border-radius: 30px;
     background-color: #0575e6;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 8px 30px;
+    text-align: center;
+    margin: 15px;
+    padding: 8px 10px;
     font-size: 14px;
     cursor: pointer;
 }
-.groupParent {
-    position: absolute;
-    top: 0px;
-    left: 0px;
+
+.leftContent {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 23px;
-}
-.content {
-    position: absolute;
-    top: 371px;
-    left: 364px;
-    width: 410px;
-    height: 147px;
-}
-.leftContent {
-    position: absolute;
-    top: 0px;
-    left: -207px;
-    width: 1067px;
-    height: 1203px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #0575e6, #02298a 84.79%, #021b79);
+    width: 50%;
+    height: 100%;
 }
 .welcomeBack {
-    position: absolute;
-    top: 42px;
-    left: 0px;
     font-size: 18px;
 }
 .forgotPassword {
-    position: absolute;
-    top: 335px;
-    left: 96px;
     font-size: 14px;
     opacity: 0.7;
 }
-.title {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 212px;
-    height: 356px;
-    font-size: 26px;
-}
-.placeholder {
+.button {
     border: none;
-    position: relative;
-    top: 261px;
-    left: 0px;
     border-radius: 30px;
     background-color: #0575e6;
     width: 307px;
@@ -106,31 +53,8 @@
     color: #fff;
     cursor: pointer;
 }
-.bxbxsLockAltIcon {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 24px;
-    height: 24px;
-    overflow: hidden;
-    opacity: 0.3;
-}
-.placeholder1 {
-    width: 100px;
-    position: relative;
-    height: 24px;
-}
-.placeholder1 input{
-    border: none;
-    outline: none;
-    flex: 1;
-    font-size: 14px;
-    color: #333;
-}
-.password {
-    position: absolute;
-    top: 185px;
-    left: 0px;
+
+input {
     border-radius: 30px;
     background-color: #fff;
     border: 1px solid #eee;
@@ -141,27 +65,14 @@
     align-items: flex-start;
     justify-content: center;
     padding: 18px 26px;
+    margin: 15px 0;
 }
+
 .emailAddress {
-    position: absolute;
-    top: 2px;
-    left: 32px;
     color: #000;
 }
-.placeholder2 {
-    width: 131px;
-    position: relative;
-    height: 24px;
-}
-.placeholder2 input{
-    border: none;
-    outline: none;
-    flex: 1;
-    font-size: 14px;
-    color: #333;
-}
+
 .email {
-    position: absolute;
     top: 109px;
     left: 0px;
     border-radius: 30px;
@@ -176,21 +87,20 @@
     padding: 18px 26px;
 }
 .rightContent {
-    position: absolute;
-    top: 272px;
-    left: 973px;
-    width: 307px;
-    height: 356px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
     font-size: 14px;
     color: #333;
 }
 .login {
+    display: flex;
     width: 100%;
-    position: relative;
     background-color: #fff;
-    height: 900px;
-    overflow: hidden;
-    text-align: left;
+    height: 100vh;
     font-size: 40px;
     color: #fff;
     font-family: Poppins;

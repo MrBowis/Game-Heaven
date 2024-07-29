@@ -478,6 +478,7 @@
     background: linear-gradient(242.08deg, #ff00ff, #990099), #fff;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 40px;
 }
 .paragraph1 {
     align-self: stretch;
@@ -524,7 +525,8 @@
 .paragraph2 {
     align-self: stretch;
     position: relative;
-    font-size: 20px;
+    font-size: 24px;
+    color: #fff;
     font-family: Poppins;
 }
 .container3 {

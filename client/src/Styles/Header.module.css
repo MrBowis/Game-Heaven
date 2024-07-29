@@ -1,0 +1,34 @@
+.buttonsActions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    padding: 10px 24px;
+    color: #131313;
+    width: 97%;
+    height: 60px;
+    background-color: #131313;
+}
+.button {
+    right: 100px;
+    background-color: #fff;
+    padding: 10px 24px;
+    border-radius: 10px;
+    color: #131313;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px;
+}
+/* .fondoButtons {
+    width: 100%;
+    display: flex;
+    background-color: #131313;
+    height: 116px;
+    text-align: left;
+    font-size: 16px;
+    color: #fff;
+    font-family: Inter;
+} */
+

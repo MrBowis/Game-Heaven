@@ -28,19 +28,21 @@ const Login = () => {
 	return (
 		<div className={styles.login}>
 			<div className={styles.leftContent}>
-				<b className={styles.gofinance}>GoFinance</b>
+				<b className={styles.gofinance}>Game Heaven</b>
 				<div className={styles.theMostPopular}>
-					The most popular peer to peer lending at SEA
+					Un lugar para que dejar volar tus opiniones
 				</div>
-				<a href="/" className={styles.link}>Back</a>
+				<a href="/" className={styles.link}>
+					Home
+				</a>
 			</div>
 			<div className={styles.rightContent}>
-				<b className={styles.gofinance}>Hello Again!</b>
-				<div className={styles.welcomeBack}>Welcome Back</div>
+				<b className={styles.gofinance}>BIENVENIDO DE VUELTA!</b>
+				<div className={styles.welcomeBack}>Inicia Sesión para divertirte</div>
 				<form onSubmit={handleLogin}>
 					<input
 						type="user"
-						placeholder="User Address"
+						placeholder="Usuario"
 						className={styles.input}
 						value={user}
 						onChange={(e) => setUser(e.target.value)}
@@ -48,7 +50,7 @@ const Login = () => {
 					<input
 						type="password"
 						className={styles.input}
-						placeholder="Password"
+						placeholder="Contraseña"
 						value={password}
 						onChange={(e) => setPassword(e.target.value)}
 					/>
@@ -56,6 +58,7 @@ const Login = () => {
 						Log In
 					</button>
 				</form>
+				<a href="/register" className={styles.message}>¿Aun sin cuenta? Registrate ahora</a>
 			</div>
 		</div>
 	);

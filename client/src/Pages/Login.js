@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../Styles/Login.css";
+import { Link } from "react-router-dom";
 
 function Login() {
 	const [user, setUser] = useState("");
@@ -32,9 +33,9 @@ function Login() {
 				<div className="theMostPopular">
 					The most popular peer to peer lending at SEA
 				</div>
-				<a className="readMore">
+				<Link className="readMore">
 					Read More
-				</a>
+				</Link>
 			</div>
 			<div className="rightContent">
 				<b className="gofinance">Hello Again!</b>

@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import "../Styles/Login.css";
-import { Link } from "react-router-dom";
 
-function Login() {
+const Login = () => {
 	const [user, setUser] = useState("");
 	const [password, setPassword] = useState("");
 
@@ -33,14 +32,14 @@ function Login() {
 				<div className="theMostPopular">
 					The most popular peer to peer lending at SEA
 				</div>
-				<Link className="readMore">
+				<a className="readMore">
 					Read More
-				</Link>
+				</a>
 			</div>
 			<div className="rightContent">
 				<b className="gofinance">Hello Again!</b>
 				<div className="welcomeBack">Welcome Back</div>
-				<form className="userParent" onSubmit={handleLogin}>
+				<form onSubmit={handleLogin}>
 					<input
 						type="user"
 						className="userAddress"

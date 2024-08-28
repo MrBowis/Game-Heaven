@@ -14,6 +14,6 @@ const login = async (req, res, next) => {
     }
 };
 
-router.get('/login', login);
+router.post('/login', login);
 
 module.exports = router;

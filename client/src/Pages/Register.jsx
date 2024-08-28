@@ -1,26 +1,43 @@
 import React, { useState } from "react";
 import styles from "../Styles/Register.module.css";
+import axios from "axios";
 
 function Register() {
-	const [fullName, setFullName] = useState("");
+	const [name, setName] = useState("");
+	const [user, setUser] = useState("");
 	const [email, setEmail] = useState("");
 	const [password, setPassword] = useState("");
 
 	const handleRegister = (e) => {
 		e.preventDefault();
 		// Validar los datos de entrada
-		if (!fullName || !email || !password) {
+		if (!user || !email || !password || !name) {
 			alert("Please fill in all fields");
 			return;
 		}
 
-		// Aquí se puede añadir la lógica para enviar los datos al servidor
-		console.log("Full Name:", fullName);
-		console.log("Email:", email);
-		console.log("Password:", password);
+		// Crear un objeto con los datos del usuario
+		const newUser = {
+			id: Math.floor(Math.random() * 100000),
+			name,
+			user,
+			email,
+			password,
+		};
+
+		// Enviar los datos del usuario al servidor
+		axios
+			.post("http://localhost:4000/api/users", newUser)
+			.then((res) => {
+				console.log(res.data);
+			})
+			.catch((err) => {
+				console.error(err);
+			});
 
 		// Limpiar los campos después del registro
-		setFullName("");
+		setName("");
+		setUser("");
 		setEmail("");
 		setPassword("");
 
@@ -37,9 +54,16 @@ function Register() {
 					<input
 						type="text"
 						className={styles.input}
-						placeholder="Nombres Completos"
-						value={fullName}
-						onChange={(e) => setFullName(e.target.value)}
+						placeholder="Nombre"
+						value={name}
+						onChange={(e) => setName(e.target.value)}
+					/>
+					<input
+						type="text"
+						className={styles.input}
+						placeholder="Usuario"
+						value={user}
+						onChange={(e) => setUser(e.target.value)}
 					/>
 
 					<input

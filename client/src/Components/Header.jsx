@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../Styles/Header.module.css";
+import { isAuthenticated } from "../utils/auth";
 import { useNavigate } from "react-router-dom";
 
 function Header() {
@@ -10,8 +11,26 @@ function Header() {
 	};
 
 	const goToLogin = () => {
-		navigate("login");
+		navigate("/login");
 	};
+
+	const logout = () => {
+		localStorage.removeItem("authToken");
+		navigate("/");
+	};
+
+	if (isAuthenticated()) {
+		return (
+			<>
+				<div className={styles.buttonsActions}>
+					<button className={styles.button} onClick={() => navigate("/")}>Home</button>
+					<button className={styles.button} onClick={() => navigate("/games")}>Juegos</button>
+					{/* <button className={styles.button} onClick={() => navigate("/reviews")}>Mis Reseñas</button> */}
+					<button className={styles.button} onClick={() => logout()}>Cerrar Sesión</button>
+				</div>
+			</>
+		);
+	}
 
 	return (
 		<>

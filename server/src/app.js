@@ -2,8 +2,12 @@ const exppress = require('express');
 const config = require('./config');
 const morgan = require('morgan');
 const error = require('./middlewares/errors');
+const cors = require('cors');
 
 const app = exppress();
+
+// cors
+app.use(cors());
 
 // midelewares
 app.use(exppress.json());

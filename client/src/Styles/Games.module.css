@@ -1,0 +1,76 @@
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px;
+    gap: 40px;
+    font-size: 41px;
+    background: #121212;
+    color: white;
+    font-family: 'Noto Music';
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: #121212;
+}
+
+.image {
+    width: 150px;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2c2c2e; /* Fondo oscuro */
+    color: #ffffff; /* Texto en blanco */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    transition: transform 0.1s ease-in-out; /* Animación suave */
+}
+  
+.card:hover {
+    transform: scale(1.02); /* Pequeño efecto de aumento al pasar el ratón */
+}
+  
+.card_header {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.card_content {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+  
+.card_footer {
+    text-align: right;
+    font-size: 0.9em;
+    color: #aaaaaa; /* Color gris claro para el pie de página */
+}
+  
+.button {
+    background-color: #444444; /* Botón oscuro */
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+  
+.button:hover {
+    background-color: #555555; /* Un poco más claro al pasar el ratón */
+}
+  

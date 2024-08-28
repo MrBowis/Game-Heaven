@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import styles from "../Styles/Login.module.css";
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
 	const [user, setUser] = useState("");
 	const [password, setPassword] = useState("");
+	const navigate = useNavigate();
 
 	const handleLogin = (e) => {
 		e.preventDefault();
@@ -13,16 +16,27 @@ const Login = () => {
 			return;
 		}
 
+		const datos = {
+			user: user,
+			password: password
+		};
+
 		// Aquí se puede añadir la lógica para enviar los datos al servidor
-		console.log("User:", user);
-		console.log("Password:", password);
+		axios.post("http://localhost:4000/api/auth/login", datos)
+			.then((res) => {
+				localStorage.setItem("authToken", res.data.body);
+				console.log(res.data);
+			})
+			.catch((err) => {
+				console.error(err);
+			});
 
 		// Limpiar los campos después del login
 		setUser("");
 		setPassword("");
 
 		// Navegar a otra página después del login (opcional)
-		// history.push('/dashboard');
+		navigate("/games");
 	};
 
 	return (
